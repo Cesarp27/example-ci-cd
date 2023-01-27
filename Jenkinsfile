@@ -8,8 +8,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cd myapp
-                yum install python-pip
+                cd myapp           
                 pip install -r requirements.txt
                 '''
             }
