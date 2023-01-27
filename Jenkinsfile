@@ -10,7 +10,7 @@ pipeline {
                 sh '''
                 cd myapp  
                 source /var/MiriaTest/venv_test_version/bin/activate
-                sudo pip install -r requirements.txt
+                pip install -r requirements.txt
                 '''
             }
         }
