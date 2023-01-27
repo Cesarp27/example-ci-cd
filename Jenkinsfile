@@ -21,7 +21,7 @@ pipeline {
                 cd myapp
                 source /var/MiriaTest/venv_test_version/bin/activate
                 python3 hello.py
-                python. hello.py --name=Cesar
+                python3 hello.py --name=Cesar
                 '''
             }
         }
