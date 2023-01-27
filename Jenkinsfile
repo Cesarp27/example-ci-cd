@@ -8,7 +8,8 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cd myapp           
+                cd myapp  
+                source /var/MiriaTest/venv_test_version/bin/activate
                 pip install -r requirements.txt
                 '''
             }
